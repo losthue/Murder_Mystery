@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final Decision</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>⚖️ Final Decision</h2>
+
+  <p>Who is the killer?</p>
+
+  <select id="killer">
+    <option value="alex">Alex (Best Friend)</option>
+    <option value="maya">Maya (Ex)</option>
+    <option value="jordan">Jordan (Rival)</option>
+    <option value="sam">Sam (Quiet One)</option>
+  </select>
+
+  <p>Why?</p>
+  <input type="text" id="motive" placeholder="Enter motive">
+
+  <br>
+  <button onclick="checkFinal()">Submit</button>
+
+  <p id="result"></p>
+</div>
+
+</body>
+</html>
